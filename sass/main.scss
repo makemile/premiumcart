@@ -1,0 +1,39 @@
+@import "./config.scss";
+@import "./menu";
+
+body {
+  background: #fff;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: $primary-color !important;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.home {
+  &__title {
+    font-size: 40px;
+  }
+  p {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,13 @@
+$primary-color: rgba(86, 83, 99, 1);
+$secondary-color: rgba(97, 77, 167, 1);
+$color-hover: rgba(129, 113, 185, 1);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition-ease {
+  transition: all 5s ease-in-out;
+}
